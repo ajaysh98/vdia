@@ -5,9 +5,14 @@ body {
     padding: 5px;
     
     font-family: serif;
-    background-image: url("images.jfif/.jpg")
+    background-image: url("images.jfif/.jpg");
+    display: flex;
 }
 master{background-image: url(images.jfif/domokun-big.jpg);
+display: flex;
+}
+#logo {border-radius: 50px;
+    align-items:center
 }
 
 h1{background-color:#efefef;
@@ -16,7 +21,7 @@ color: royalblue;
     margin: 5px;
     font-family: 'Courier New', Courier, monospace;
 }
-h2{background-color: hotpink;
+h2{background-color: lightslategray;
     opacity: 0.9;
     text-decoration:underline;
     text-indent: 50;
@@ -58,3 +63,8 @@ h5{text-align: center ;
 #good {background-image: url(images.jfif/back.jpg);}
 h4{color: floralwhite}
 #work {background-color: #5FAE96}
+#one{align-self: center;}
+#karter{border: 2px solid;
+    margin: 20px;
+    padding: 5px;
+}
