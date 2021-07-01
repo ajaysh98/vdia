@@ -1,0 +1,57 @@
+body {
+    background-color: silver;
+    color: whitesmoke;
+    font-size: 12pt;
+    padding: 5px;
+    
+    font-family: serif;
+    background-image: url("images.jfif/.jpg")
+}
+master{background-image: url(images.jfif/domokun-big.jpg)}
+
+h1{background-color:#efefef;
+color: black;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2{background-color: hotpink;
+    opacity: 0.9;
+    text-decoration:underline;
+    text-indent: 50;
+}
+h3 {background-color:blue;
+    color:darkred;
+    opacity: 0.6;
+    border: 4px dotted #0088dd;
+}
+p{background-color: #4A55C4;
+    line-height: 1.5em;
+    text-shadow: 1px 1px 5px;
+    
+}
+h6 {text-shadow: 1px 1px 2px
+    
+}
+p.one{background-color: lightblue};
+
+ul.two {border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+li{display: inline;
+    margin: 10px;
+}
+blockquote{float: left;
+    width: 250px;
+    margin: 5px;
+    font-style: italic;
+    border-top: 5px solid #0088dd;
+    border-bottom: 5px solid #0088dd;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+h5{text-align: center ;
+    
+}
+#wrapper {background-color: #228A90}
+#good {background-image: url(images.jfif/ajay.jpg);}
