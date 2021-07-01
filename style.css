@@ -1,6 +1,6 @@
 body {
-    background-color: silver;
-    color: whitesmoke;
+    background-color: cornsilk;
+    color: black;
     font-size: 12pt;
     padding: 5px;
     
@@ -26,7 +26,7 @@ h3 {background-color:blue;
     opacity: 0.6;
     border: 4px dotted #0088dd;
 }
-p{background-color: #3C8DCDFA;
+p{background-color: #4A55C4;
     line-height: 1.5em;
     text-shadow: 1px 1px 5px;
     
