@@ -1,6 +1,6 @@
 body {
-    background-color: cornsilk;
-    color: black;
+    background-color: black;
+    color: whitesmoke;
     font-size: 12pt;
     padding: 5px;
     
@@ -11,7 +11,7 @@ master{background-image: url(images.jfif/domokun-big.jpg);
 }
 
 h1{background-color:#efefef;
-color: black;
+color: royalblue;
     padding: 5px;
     margin: 5px;
     font-family: 'Courier New', Courier, monospace;
@@ -56,5 +56,5 @@ h5{text-align: center ;
 }
 #wrapper {background-color: #228A90}
 #good {background-image: url(images.jfif/back.jpg);}
-h4{color: black}
+h4{color: floralwhite}
 #work {background-color: #5FAE96}
