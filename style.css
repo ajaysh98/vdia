@@ -7,7 +7,8 @@ body {
     font-family: serif;
     background-image: url("images.jfif/.jpg")
 }
-master{background-image: url(images.jfif/domokun-big.jpg)}
+master{background-image: url(images.jfif/domokun-big.jpg);
+}
 
 h1{background-color:#efefef;
 color: black;
@@ -25,7 +26,7 @@ h3 {background-color:blue;
     opacity: 0.6;
     border: 4px dotted #0088dd;
 }
-p{background-color: #4A55C4;
+p{background-color: #3C8DCDFA;
     line-height: 1.5em;
     text-shadow: 1px 1px 5px;
     
