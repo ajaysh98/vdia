@@ -59,7 +59,12 @@ blockquote{float: left;
 h5{text-align: center ;
     
 }
-#wrapper {background-color: #228A90}
+#wrapper {background-color: #228A90;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    
+}
 #good {background-image: url(images.jfif/back.jpg);}
 h4{color: floralwhite}
 #work {background-color: #5FAE96}
