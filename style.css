@@ -3,51 +3,73 @@ body {
     color: whitesmoke;
     font-size: 12pt;
     padding: 5px;
-    
+
     font-family: serif;
     background-image: url("images.jfif/.jpg");
     display: flex;
 }
-master{background-image: url(images.jfif/domokun-big.jpg);
-display: flex;
-}
-#logo {border-radius: 50px;
-    align-items:center
+
+master { width: 100%;
+    background-image: url(images.jfif/domokun-big.jpg);
+    display: flex;
 }
 
-h1{background-color:#efefef;
-color: royalblue;
+#logo {
+    border-radius: 50px;
+    align-items: center
+}
+
+h1 {
+    background-color: #efefef;
+    color: royalblue;
     padding: 5px;
     margin: 5px;
     font-family: 'Courier New', Courier, monospace;
 }
-h2{background-color: lightslategray;
+
+h2 {
+    background-color: lightslategray;
     opacity: 0.9;
-    text-decoration:underline;
+    text-decoration: underline;
     text-indent: 50;
 }
-h3 {background-color:blue;
-    color:darkred;
+
+h3 {
+    background-color: blue;
+    color: darkred;
     opacity: 0.6;
     border: 4px dotted #0088dd;
 }
-p{background-color: #4A55C4;
+
+p {
+    background-color: #4A55C4;
     line-height: 1.5em;
     text-shadow: 1px 1px 5px;
-    
-}
-h6 {text-shadow: 1px 1px 2px
-    
-}
-p.one{background-color: lightblue};
 
-ul.two {border-top: 2px solid #000;
+}
+
+h6 {
+    text-shadow: 1px 1px 2px
+}
+
+p.one {
+    background-color: lightblue
+}
+
+;
+
+ul.two {
+    border-top: 2px solid #000;
     border-bottom: 2px solid #000;
 }
-li{display: inline;
+
+li {
+    display: inline;
     margin: 10px;
 }
-blockquote{float: left;
+
+blockquote {
+    float: left;
     width: 250px;
     margin: 5px;
     font-style: italic;
@@ -56,21 +78,70 @@ blockquote{float: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 10px;
 }
-h5{text-align: center ;
-    
+
+h5 {
+    text-align: center;
+
 }
-#wrapper {background-color: #228A90;
+
+#wrapper {
+    background-color: #228A90;
     position: sticky;
     top: 0;
     cursor: pointer;
-    
+    height: px
+
 }
-#good {background-image: url(images.jfif/back.jpg);}
-h4{color: floralwhite}
-#work {background-color: #5FAE96}
-#one{align-self: center;}
-#karter{border: 2px solid;
+
+#good {
+    background-image: url(images.jfif/back.jpg);
+    height: 250px
+}
+
+h4 {
+    color: floralwhite
+}
+
+#work {
+    background-color: #5FAE96
+}
+
+#one {
+    align-self: center;
+}
+
+#karter {
+    border: 2px solid;
     margin: 20px;
     padding: 5px;
 }
-.master {display: flex;}
+
+.master {
+    display: flex;
+}
+
+.faster {
+    align-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.burger {
+    position: absolute;
+    right: 5%;
+    top: 5px;
+    cursor: pointer;
+
+}
+
+.line { width: 25px;
+    background-color: white;
+    height: 4px;
+    margin-top:3x;
+    margin-bottom: 3px;
+}
+@media only screen and (max-width: 300px){
+#wrapper { 
+    flex-direction:column;
+}
+}
