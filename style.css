@@ -111,6 +111,7 @@ h4 {
 }
 
 #karter {
+    width: 100%;
     border: 2px solid;
     margin: 20px;
     padding: 5px;
