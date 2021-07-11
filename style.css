@@ -1,7 +1,6 @@
 body {
     display: grid;
     place-items: center;
-    width: 100vw;
     background-color: black;
     color: whitesmoke;
     font-size: 12pt;
@@ -12,7 +11,7 @@ body {
     display: flex;
 }
 
-master { width: 100vw;
+master {
     background-image: url(images.jfif/domokun-big.jpg);
     display: flex;
 }
