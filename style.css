@@ -1,4 +1,7 @@
 body {
+    display: grid;
+    place-items: center;
+    width: 100vw;
     background-color: black;
     color: whitesmoke;
     font-size: 12pt;
@@ -9,12 +12,12 @@ body {
     display: flex;
 }
 
-master { width: 100%;
+master { width: 100vw;
     background-image: url(images.jfif/domokun-big.jpg);
     display: flex;
 }
 
-#logo { width: 15%
+#logo { width: 15vw;
     border-radius: 50px;
     align-items: center
 }
@@ -22,7 +25,7 @@ master { width: 100%;
 h1 {
     background-color: #efefef;
     color: royalblue;
-    padding: 5px;
+    padding: 1vw;
     margin: 5px;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -32,8 +35,12 @@ h2 {
     opacity: 0.9;
     text-decoration: underline;
     text-indent: 50;
+    margin: 2vw;
 }
 
+.click{
+    margin: 40vw
+}
 h3 {
     background-color: blue;
     color: darkred;
@@ -45,6 +52,7 @@ p {
     background-color: #4A55C4;
     line-height: 1.5em;
     text-shadow: 1px 1px 5px;
+    margin: 2vw;
 
 }
 
@@ -70,7 +78,7 @@ li {
 
 blockquote {
     float: left;
-    width: 250px;
+    width: 250;
     margin: 5px;
     font-style: italic;
     border-top: 5px solid #0088dd;
@@ -93,9 +101,10 @@ h5 {
 
 }
 
-#good {
+#good {padding: 4vw;
+margin: 4vw;
     background-image: url(images.jfif/back.jpg);
-    height: 250px
+    height: 150px
 }
 
 h4 {
@@ -111,7 +120,6 @@ h4 {
 }
 
 #karter {
-    width: 100%;
     border: 2px solid;
     margin: 20px;
     padding: 5px;
@@ -119,9 +127,21 @@ h4 {
 
 .master {
     display: flex;
+    width: 75vw;
 }
 
-.faster {
+.brdr { margin: 5vw;
+padding: 10px;
+    background-color: rosybrown
+}
+.birod { margin: 5vw;
+padding: 0vw 10vw 0vw 10vw;
+    background-color: floralwhite;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.faster { width: 100px;
     align-content: center;
     padding-left: 50px;
     padding-right: 50px;
